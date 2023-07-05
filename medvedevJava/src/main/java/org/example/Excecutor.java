@@ -22,7 +22,7 @@ public class Excecutor {
             System.out.println("Error: " + ex.getMessage());
         }
         scanner.close();
-        if (number == 7) {
+        if (number > 7) {
             System.out.println("Hello");
         }
     }
