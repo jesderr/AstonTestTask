@@ -11,7 +11,8 @@ public class Main {
 
 //        excecutor.isVyacheslav();
 
-        ArrayList<Integer> listOfNumbers = new ArrayList<>(List.of(1,2,3,4,5,6,7,8,9,10,11));
+//        ArrayList<Integer> listOfNumbers = new ArrayList<>(List.of(1,2,3,4,5,6,7,8,9,10,11));
+        ArrayList<Integer> listOfNumbers = new ArrayList<>(List.of(0,1,2));
         listOfNumbers = excecutor.getMultiplesOfThree(listOfNumbers);
         System.out.println(listOfNumbers);
     }
